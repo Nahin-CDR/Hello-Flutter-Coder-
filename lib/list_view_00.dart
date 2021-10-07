@@ -39,7 +39,9 @@ Widget getListView() {
         ),),
         subtitle: Text(elon,style: TextStyle(
             fontSize: 17
-        ),),
+        ),
+        ),
+          onTap: ,
       ),
       ListTile(
         leading: Image.network("https://upload.wikimedia.org/wikipedia/commons/a/a8/Bill_Gates_2017_%28cropped%29.jpg"),
@@ -111,6 +113,30 @@ Widget getListView() {
           fontSize: 17,
         ),),
       ),
+      Container(
+        width: 500,
+        height: 500,
+        color: Colors.indigo,
+        child: Stack(
+          //alignment: Alignment.centerLeft,
+          children: [
+            Container(
+                child: Image.network("https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg"),
+                width: 100,
+                height: 100,
+                color: Colors.red,
+              ),
+            Container(
+              width: 100,
+              height: 100,
+              color: Colors.green,
+            ),
+          ],
+        ),
+      ),
+      Text("this is another secotion"),
+      Image.network("https://q-xx.bstatic.com/xdata/images/hotel/840x460/193414480.jpg?k=3cc53cc584d072dd217c15463feaaab2c173a2eca090560a30a11e280d0717b9&o=")
+
     ],
   );
   return listView;
