@@ -31,6 +31,7 @@ class MyScrollablePage extends StatelessWidget {
               style: const TextStyle(
                 fontSize: 70,
                 color: Colors.green,
+
               ),
             ),
           ),
